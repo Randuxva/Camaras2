@@ -1,0 +1,12 @@
+ultralytics>=8.3.0
+opencv-python>=4.10.0.84
+numpy>=1.26.0
+supabase>=2.10.0
+python-dotenv>=1.0.0
+requests>=2.32.0
+# Lectura local de patentes (core/plate_reader.py): detector + OCR en ONNX, CPU
+open-image-models>=0.6.0
+fast-plate-ocr[onnx]>=1.1.0
+# Dos streams (pipeline/dual_producer.py): decodificación del stream principal con PyAV
+av>=14.0.0
+psutil>=5.9.0

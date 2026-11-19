@@ -1,0 +1,23 @@
+# Claves y configuración local: NUNCA al repositorio
+.env
+# Entorno, datos y archivos que genera el agente
+venv/
+__pycache__/
+*.pyc
+logs/
+captures/
+quietos/
+repetidos/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+pruebas.txt
+salida.txt
+errores.txt
+audit_runs/
+# Modelos y videos grandes (se bajan solos o se generan)
+*.mp4
+*.mkv
+yolo11s.pt
+*.onnx
