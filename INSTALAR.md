@@ -11,7 +11,7 @@
 
 ## 1. Bajar el código
 ```bash
-cd /d "%USERPROFILE%\Documents" && git clone https://github.com/datafire985-a11y/camara.git && cd camara
+cd /d "%USERPROFILE%\Documents" && git clone https://github.com/datafire985-a11y/Camaras.git camara && cd camara
 ```
 
 ## 2. Instalar (una vez, 10 a 20 minutos)
